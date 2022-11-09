@@ -13,7 +13,12 @@ import (
 )
 
 const (
-	bas = "/Users/xh3b4sd/project/phoebetron/proofs/"
+	// bas is usually only used for debugging purposes and should be set to the
+	// absolute working directory of the executing process.
+	//
+	//     /Users/xh3b4sd/project/phoebetron/proofs/
+	//
+	bas = ""
 	tes = "mnist_test.csv"
 	tra = "mnist_train.csv"
 )
